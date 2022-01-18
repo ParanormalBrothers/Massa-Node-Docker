@@ -17,7 +17,7 @@ Docker image helps to migrate your Massa Testnet Node and Client to Docker conta
 <pre>
 docker build -t massa .
 </pre>
-- chech that "massa" image is builded:
+- check that "massa" image is builded:
 <pre>
 docker images
 </pre>
@@ -34,7 +34,7 @@ You can grep logs of course:
 
 # Client
 Client is builded with node. You have to use it to prepare everything for staking (if you want to stake): buy rolls and register with Massa Bot in Discord.
-But you can use client executible to connect to your node also.
+But you can use client binary to connect to your node also.
 
 ## Connect to container and use client:
 <pre>
