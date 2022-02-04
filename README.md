@@ -38,7 +38,7 @@ But you can use client binary to connect to your node also.
 
 ## Connect to container and use client:
 <pre>
-docker run -it --entrypoint /bin/bash node
+docker exec -it node /bin/bash
 </pre>
 When connected, switch folder to client and run client:
 <pre>
